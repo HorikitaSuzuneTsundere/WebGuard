@@ -10,7 +10,7 @@
 - The website uses Firebase to store reported URLs and display them to administrators.
 - WebGuard aims to provide a quick and easy way to check the safety of a URL before visiting it.
 # 🌐 Website
-The project is hosted on [insert website URL here], where you can [insert a brief description of what visitors can do on the website].
+- https://webguard.horikitasuzune.repl.co/
 # 📷 Screenshots
 [Insert screenshot(s) of the project here, if applicable]
 # 📋 Details
