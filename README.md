@@ -12,7 +12,7 @@
 # 🌐 Website
 - https://webguard.horikitasuzune.repl.co/
 # 📷 Screenshots
-[Insert screenshot(s) of the project here, if applicable]
+- https://github.com/HorikitaSuzuneTsundere/WebGuard/blob/main/Screenshots.md
 # 📋 Details
 - Latest version: 1.5
 - Released: April 10, 2023
