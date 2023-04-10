@@ -1,0 +1,243 @@
+/* Set default styles for body and headings */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+/* Set styles for header */
+header {
+  background-color: #060047;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+header h1 {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Set styles for form */
+form {
+  margin: 20px 0;
+  text-align: left;
+  padding-left: 20px;
+}
+form p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #444444;
+  text-align: left;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #060047;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #B3005E;
+  transform: scale(1.1);
+}
+
+
+/* Set styles for scan report */
+.scan-report {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.scan-report h2 {
+  margin-top: 0;
+}
+
+.scan-report ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.scan-report li {
+  margin-bottom: 5px;
+}
+
+/* CSS styles for the footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+  color: white;
+}
+
+.footer-text {
+  margin: 0 10px;
+}
+
+.linkedin {
+  color: white;
+}
+
+/* Additional styles for the footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #060047;
+  color: white;
+}
+
+.footer-text {
+  margin: 0 10px;
+}
+
+.linkedin {
+  color: white;
+}
+
+/* Copyright text styles */
+.copyright {
+  color: #B3005E;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* scan text styles */
+#scan-results {
+  background-color: #060047;
+  color: white;
+  padding: 20px;
+  margin: 80px auto 10px auto; /* adjust the bottom margin */
+  text-align: justify;
+  max-width: 800px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+#scan-results h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+#scan-results ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#scan-results li {
+  margin-bottom: 5px;
+}
+
+#scan-results li strong {
+  font-weight: bold;
+}
+
+#scan-results span {
+  font-weight: bold;
+}
+
+/*loading.....*/
+#loading {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 9999;
+}
+
+#loading p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  animation: fadein 1s;
+}
+
+.buttons button {
+  background-color: #0EA293;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  background-color: #27E1C1;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
